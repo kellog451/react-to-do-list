@@ -1,0 +1,49 @@
+.reminders{
+  box-sizing: border-box;
+  overflow: hidden;
+  border: solid 1px #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: solid 5px #d59ffa;
+}
+
+.leftDiv{
+  display: block;
+  float: left;
+  max-width: 50%;
+}
+
+.rightDiv{
+  display: block;
+  float: right;
+  max-width: 50%;
+}
+
+.dueIn{
+  display: block;
+  float: right;
+  border: solid 1px green;
+}
+
+.badge{
+  text-align: center;
+  align-items: center;
+}
+
+.daysLeft{
+  color: rgb(255, 115, 22);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.daysLeftDue{
+  color: red;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.daysLeft span{
+  color: rgb(158, 158, 158);
+  font-size: 12px;
+  display: block;
+}
